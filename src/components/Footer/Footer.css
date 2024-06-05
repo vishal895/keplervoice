@@ -1,0 +1,80 @@
+.footer{
+    
+    padding: 35px 120px 35px 120px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../Assets/footer.jpeg) no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+
+}
+.footer_grid{
+    display: grid;
+    align-items: baseline;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.icon_portion{
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+.link_portion{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: baseline;
+    color: #0089b1;
+    
+
+}
+
+.logo-resize {
+    width: 150px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo_color{
+    color: #7efde0;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  .link_css{
+    text-decoration: none;
+    color: #7efde0;
+  }
+  
+  .copywrite_portion{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+.copywrite_portion span{
+    color: #7efde0;
+} 
+.para_footer{
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+} 
+@media only screen and (max-width: 786px) {
+    .footer{
+        padding:10px;
+    }
+    .footer_grid{
+        grid-template-columns:1fr;
+    
+    }
+   
+    .link_portion{
+        
+        flex-direction: column;
+        
+        
+    
+    }
+}
