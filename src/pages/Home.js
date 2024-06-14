@@ -146,7 +146,7 @@ const Home = () => {
               img={test_3}
               loading="lazy"
               message="The attention to detail from the Kepler Voice team was exceptional. They really took the time to understand our specific requirements and crafted a solution that addressed them perfectly. Their dedication to meeting our needs was evident throughout the entire project"
-              name="Steve Davidson"
+              name="Stephen smith"
             />
           </div>
         </div>
